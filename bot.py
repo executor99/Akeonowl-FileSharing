@@ -97,7 +97,7 @@ async def main(bot: Client, message: Message):
                 pass
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/M4SK3R1N)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/ZonaKimochi)",
                                      disable_web_page_preview=True)
             return
 
@@ -111,7 +111,7 @@ async def main(bot: Client, message: Message):
             await forwarded_msg.reply_text(
                 f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
                 parse_mode="Markdown", disable_web_page_preview=True)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=M4SK3R1N_{file_er_id}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=CinemaIndoXXI_{file_er_id}"
             await editable.edit(
                 f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
                 parse_mode="Markdown",
