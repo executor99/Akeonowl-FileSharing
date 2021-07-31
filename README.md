@@ -36,7 +36,7 @@ This is Telegram Parmanent Files Store Bot by [@M4SK3R](https://github.com/ZonaK
 	- Put all banned channel IDs & Separate with space.
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/M4SK3R1N/PyroFilesStore)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akeonowl/Akeonowl-FileSharing)
 
 ## Commands:
 ```
