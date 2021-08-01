@@ -1,3 +1,4 @@
+# @ZonaKimochi Copyright
 from configs import Config
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
