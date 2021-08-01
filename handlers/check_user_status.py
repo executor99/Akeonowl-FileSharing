@@ -1,3 +1,4 @@
+# @ZonaKimochi Copyright
 import datetime
 from configs import Config
 from handlers.database import Database
