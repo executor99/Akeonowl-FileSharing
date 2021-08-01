@@ -1,5 +1,5 @@
 # PyroFilesStoreBot
-This is Telegram Parmanent Files Store Bot by [@M4SK3R](https://github.com/ZonaKimochi).
+This is Telegram Parmanent Files Store Bot by [@ZonaKimochi](https://github.com/ZonaKimochi).
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -49,4 +49,4 @@ banned_users - Get All Banned Users
 ```
 
 ### Support Group:
-<a href="https://t.me/M4SK3R1N"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/ZonaKimochi"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
