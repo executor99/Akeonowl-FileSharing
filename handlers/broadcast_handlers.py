@@ -1,3 +1,4 @@
+# @ZonaKimochi Copyright
 import os
 import time
 import string
