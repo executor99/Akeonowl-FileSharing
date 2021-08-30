@@ -36,7 +36,7 @@ This is Telegram Parmanent Files Store Bot by [@ZonaKimochi](https://github.com/
 	- Put all banned channel IDs & Separate with space.
 
 ### Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akeonowl/Akeonowl-FileSharing)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/executor99/Akeonowl-FileSharing)
 
 ## Commands:
 ```
@@ -49,4 +49,4 @@ banned_users - Get All Banned Users
 ```
 
 ### Support Group:
-<a href="https://t.me/ZonaKimochi"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/parapencarimemew"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
