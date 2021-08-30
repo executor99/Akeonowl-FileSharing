@@ -7,9 +7,9 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/Akeonowl/Akeonowl-FileSharing",
-    "website": "https://t.me/ZonaKimochi",
-    "success_url": "https://t.me/AsupanInsomniaViral",
+    "repository": "https://github.com/executor99/Akeonowl-FileSharing",
+    "website": "https://t.me/parapencarimemew",
+    "success_url": "https://t.me/videotiktok69",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
