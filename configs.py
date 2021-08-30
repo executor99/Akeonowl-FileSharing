@@ -24,15 +24,15 @@ Kirimi saya file apa pun, saya akan menyimpannya di Database saya. Juga berfungs
 📝 **Language:** [Python3](https://www.python.org)
 📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 📡 **Hosted on:** [Heroku](https://heroku.com)
-🕷️ **Developer:** @ZonaKimochi
-👥 **Support Group:** [Linux Repositories](https://t.me/ZonaKimochi)
-📢 **Updates Channel:** [Discovery Projects](https://t.me/AsupanInsomniaViral)
+🕷️ **Developer:** @penikmatmemew
+👥 **Support Group:** [Linux Repositories](https://t.me/penikmatmemew)
+📢 **Updates Channel:** [Discovery Projects](https://t.me/videotiktok69)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @ZonaKimochi
+🧑🏻‍💻 **Developer:** @penikmatmemew
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-[Donate Now](https://t.me/ZonaKimochi) ( Anything )
+[Donate Now](https://t.me/penikmatmemew) ( Anything )
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
