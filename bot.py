@@ -50,8 +50,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Owners Bot", url="https://t.me/ZonaKimochi"),
-                        InlineKeyboardButton("Channel", url="https://t.me/AsupanInsomniaViral")
+                        InlineKeyboardButton("Owners Bot", url="https://t.me/penikmatmemew"),
+                        InlineKeyboardButton("Channel", url="https://t.me/videotiktok69")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -71,7 +71,7 @@ async def start(bot: Client, cmd: Message):
                 send_stored_file = await bot.forward_messages(chat_id=cmd.from_user.id, from_chat_id=Config.DB_CHANNEL,
                                                               message_ids=file_id)
             await send_stored_file.reply_text(
-                f"**Link yang anda gunakan :** https://t.me/{Config.BOT_USERNAME}?start=CinemaIndoXXI_{file_id}\n\n__Jika ingin melihat video, buka dengan link !__",
+                f"**Link yang anda gunakan :** https://t.me/{Config.BOT_USERNAME}?start=VideoViralHot{file_id}\n\n__Jika ingin melihat video, buka dengan link !__",
                 disable_web_page_preview=True, quote=True)
         except Exception as err:
             await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
@@ -98,7 +98,7 @@ async def main(bot: Client, message: Message):
                 pass
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/ZonaKimochi)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/parapencarimemew)",
                                      disable_web_page_preview=True)
             return
 
@@ -112,14 +112,14 @@ async def main(bot: Client, message: Message):
             await forwarded_msg.reply_text(
                 f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
                 parse_mode="Markdown", disable_web_page_preview=True)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=CinemaIndoXXI_{file_er_id}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=VideoViralHot{file_er_id}"
             await editable.edit(
                 f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("Open Link", url=share_link)],
-                     [InlineKeyboardButton("Bots Channel", url="https://t.me/AsupanInsomniaViral"),
-                      InlineKeyboardButton("Support Group", url="https://t.me/AsupanInsomniaViralGroup")]]
+                     [InlineKeyboardButton("Bots Channel", url="https://t.me/videotiktok69"),
+                      InlineKeyboardButton("Support Group", url="https://t.me/parapencarimemew")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -161,7 +161,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = forwarded_msg.message_id
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=CinemaIndoXXI_{file_er_id}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=VideoViralHot{file_er_id}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Stored Link", url=share_link)]]))
@@ -312,7 +312,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/Akeonowl")
+                                             url="https://t.me/pencarimemew")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -331,7 +331,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/Akeonowl")
+                                             url="https://t.me/parapencarimemew")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -349,8 +349,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Owners Bot", url="https://t.me/ZonaKimochi"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/AsupanInsomniaViral")
+                        InlineKeyboardButton("Owners Bot", url="https://t.me/penikmatmemew"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/videotiktok69")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -367,18 +367,18 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AsupanInsomniaViralGroup).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/parapencarimemew).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
                     return
             except UserNotParticipant:
                 await cmd.message.edit(
-                    text="**Kamu Belum Bergabung ☹️, Please Bergabung Channel Updated Untuk Menggunakan Saya!**\n\nDue to Overload, Hanya Pengikut Yang Dapat Menggunakannya!",
+                    text="**Kamu Belum Bergabung Ke @videotiktok69 ☹️, Untuk Dapat Menggunakan Saya Silahkan Join Dulu Lalu Mulai Ulang Link Tersebut**\n\n Hanya Yang Sudah Join Yang Dapat Mendapatkan Video Bokep!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Pencet & Bergabung", url=invite_link.invite_link)
+                                InlineKeyboardButton("🤖 Klik Disini Untuk Join Channel Bokep 🤖", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -390,7 +390,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/ZonaKimochi).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/parapencarimemew).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -402,8 +402,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Owners Bot", url="https://t.me/ZonaKimochi"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/AsupanInsomniaViral")
+                        InlineKeyboardButton("Owners Bot", url="https://t.me/penikmatmemew"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/videotiktok69")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
