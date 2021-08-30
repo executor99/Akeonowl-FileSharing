@@ -19,7 +19,7 @@ async def handle_force_sub(bot, cmd):
     except UserNotParticipant:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Gabung Channel ini Untuk Menggunakan Bot!**\n\nDue to Overload, Hanya Pengikut yang Dapat Menggunakan Bot!",
+            text="**🚨 Silahkan Join Terlebih Dahulu Ke Channel @videotiktok69 Untuk MengAkses File nya,Jika Tidak Join Maka Akses BOT Di Tolak!**\n\n Hanya yang Sudah Join Dapat Menggunakan Bot!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -36,7 +36,7 @@ async def handle_force_sub(bot, cmd):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Terjadi Kesalahan. Contact my [Support Group](https://t.me/ZonaKimochi).",
+            text="Terjadi Kesalahan. Contact my [Support Group](https://t.me/penikmatmemew).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
